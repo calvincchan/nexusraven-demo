@@ -8,7 +8,7 @@ export default async function main() {
   const model = new Ollama({
     baseUrl: "http://localhost:11434",
     model: "nexusraven",
-    temperature: 0.01,
+    temperature: 0.001,
   });
 
   /** Init message with context. */
