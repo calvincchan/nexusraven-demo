@@ -1,0 +1,14 @@
+{
+  "name": "nexusraven-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "bun run src/index.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.3",
+    "langchain": "^0.1.17",
+    "ora": "^8.0.1"
+  }
+}
